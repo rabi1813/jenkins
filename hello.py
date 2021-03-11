@@ -1,1 +1,3 @@
-print("Hello")
+import logging
+logger = logging.getLogger()
+logger.info("Hello")
